@@ -1,0 +1,38 @@
+// Helpers
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+// Main
+.preloader{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    flex-direction: column;
+    &__btn{
+    font-size: 56px;
+    margin: auto;
+    padding: 5% 0 0;
+        &:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+    }
+    &__tip{
+        margin: auto;
+    }
+}
+
+.job{
+    padding: 10px 0;
+}
+.disclaimer{
+    font-size: 14px;
+    font-weight: 400;
+    padding: 0 0 10px;
+}
